@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1CA0A7AB50D380900076574 /* libPods-Halcyon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF318CB01828F7914E51BA4B /* libPods-Halcyon.a */; };
+		DE7C56AF25B365E000D2DDB7 /* HalcyonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C56AE25B365E000D2DDB7 /* HalcyonApp.swift */; };
+		DE7C56B125B365E000D2DDB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C56B025B365E000D2DDB7 /* ContentView.swift */; };
+		DE7C56B325B365E100D2DDB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7C56B225B365E100D2DDB7 /* Assets.xcassets */; };
+		DE7C56B625B365E100D2DDB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7C56B525B365E100D2DDB7 /* Preview Assets.xcassets */; };
+		DE7C56C125B365E100D2DDB7 /* HalcyonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C56C025B365E100D2DDB7 /* HalcyonTests.swift */; };
+		DE7C56CC25B365E100D2DDB7 /* HalcyonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C56CB25B365E100D2DDB7 /* HalcyonUITests.swift */; };
+		DE7C56F025B366D600D2DDB7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7C56EF25B366D600D2DDB7 /* GoogleService-Info.plist */; };
+		DE7C56F625B366F600D2DDB7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7C56F525B366F600D2DDB7 /* HealthKit.framework */; };
+		DE7C56FB25B367E000D2DDB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C56FA25B367E000D2DDB7 /* AppDelegate.swift */; };
+		DE7C574725B376CE00D2DDB7 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C574625B376CE00D2DDB7 /* Backend.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE7C56BD25B365E100D2DDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE7C56A325B365E000D2DDB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE7C56AA25B365E000D2DDB7;
+			remoteInfo = Halcyon;
+		};
+		DE7C56C825B365E100D2DDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE7C56A325B365E000D2DDB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE7C56AA25B365E000D2DDB7;
+			remoteInfo = Halcyon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F2C32B7C2FB13F9A268D27E /* Pods-Halcyon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Halcyon.release.xcconfig"; path = "Target Support Files/Pods-Halcyon/Pods-Halcyon.release.xcconfig"; sourceTree = "<group>"; };
+		9D247E7B11F2CC0ABB8DDB80 /* Pods-Halcyon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Halcyon.debug.xcconfig"; path = "Target Support Files/Pods-Halcyon/Pods-Halcyon.debug.xcconfig"; sourceTree = "<group>"; };
+		AF318CB01828F7914E51BA4B /* libPods-Halcyon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Halcyon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7C56AB25B365E000D2DDB7 /* Halcyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Halcyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7C56AE25B365E000D2DDB7 /* HalcyonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalcyonApp.swift; sourceTree = "<group>"; };
+		DE7C56B025B365E000D2DDB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE7C56B225B365E100D2DDB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE7C56B525B365E100D2DDB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE7C56B725B365E100D2DDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7C56BC25B365E100D2DDB7 /* HalcyonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalcyonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7C56C025B365E100D2DDB7 /* HalcyonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalcyonTests.swift; sourceTree = "<group>"; };
+		DE7C56C225B365E100D2DDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7C56C725B365E100D2DDB7 /* HalcyonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalcyonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7C56CB25B365E100D2DDB7 /* HalcyonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalcyonUITests.swift; sourceTree = "<group>"; };
+		DE7C56CD25B365E100D2DDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7C56EF25B366D600D2DDB7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE7C56F425B366F600D2DDB7 /* Halcyon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Halcyon.entitlements; sourceTree = "<group>"; };
+		DE7C56F525B366F600D2DDB7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		DE7C56FA25B367E000D2DDB7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE7C574625B376CE00D2DDB7 /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE7C56A825B365E000D2DDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CA0A7AB50D380900076574 /* libPods-Halcyon.a in Frameworks */,
+				DE7C56F625B366F600D2DDB7 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7C56B925B365E100D2DDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7C56C425B365E100D2DDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EAA01002736F8FBC69DDF2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7C56F525B366F600D2DDB7 /* HealthKit.framework */,
+				AF318CB01828F7914E51BA4B /* libPods-Halcyon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C780F47DD88D0FD2E37CF623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D247E7B11F2CC0ABB8DDB80 /* Pods-Halcyon.debug.xcconfig */,
+				6F2C32B7C2FB13F9A268D27E /* Pods-Halcyon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE7C56A225B365E000D2DDB7 = {
+			isa = PBXGroup;
+			children = (
+				DE7C56AD25B365E000D2DDB7 /* Halcyon */,
+				DE7C56BF25B365E100D2DDB7 /* HalcyonTests */,
+				DE7C56CA25B365E100D2DDB7 /* HalcyonUITests */,
+				DE7C56AC25B365E000D2DDB7 /* Products */,
+				C780F47DD88D0FD2E37CF623 /* Pods */,
+				9EAA01002736F8FBC69DDF2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE7C56AC25B365E000D2DDB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE7C56AB25B365E000D2DDB7 /* Halcyon.app */,
+				DE7C56BC25B365E100D2DDB7 /* HalcyonTests.xctest */,
+				DE7C56C725B365E100D2DDB7 /* HalcyonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE7C56AD25B365E000D2DDB7 /* Halcyon */ = {
+			isa = PBXGroup;
+			children = (
+				DE7C56FA25B367E000D2DDB7 /* AppDelegate.swift */,
+				DE7C56EF25B366D600D2DDB7 /* GoogleService-Info.plist */,
+				DE7C56F425B366F600D2DDB7 /* Halcyon.entitlements */,
+				DE7C56AE25B365E000D2DDB7 /* HalcyonApp.swift */,
+				DE7C56B025B365E000D2DDB7 /* ContentView.swift */,
+				DE7C574625B376CE00D2DDB7 /* Backend.swift */,
+				DE7C56B225B365E100D2DDB7 /* Assets.xcassets */,
+				DE7C56B725B365E100D2DDB7 /* Info.plist */,
+				DE7C56B425B365E100D2DDB7 /* Preview Content */,
+			);
+			path = Halcyon;
+			sourceTree = "<group>";
+		};
+		DE7C56B425B365E100D2DDB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE7C56B525B365E100D2DDB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE7C56BF25B365E100D2DDB7 /* HalcyonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE7C56C025B365E100D2DDB7 /* HalcyonTests.swift */,
+				DE7C56C225B365E100D2DDB7 /* Info.plist */,
+			);
+			path = HalcyonTests;
+			sourceTree = "<group>";
+		};
+		DE7C56CA25B365E100D2DDB7 /* HalcyonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE7C56CB25B365E100D2DDB7 /* HalcyonUITests.swift */,
+				DE7C56CD25B365E100D2DDB7 /* Info.plist */,
+			);
+			path = HalcyonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE7C56AA25B365E000D2DDB7 /* Halcyon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7C56D025B365E100D2DDB7 /* Build configuration list for PBXNativeTarget "Halcyon" */;
+			buildPhases = (
+				3A88A42A7C841F940C9DFF45 /* [CP] Check Pods Manifest.lock */,
+				DE7C56A725B365E000D2DDB7 /* Sources */,
+				DE7C56A825B365E000D2DDB7 /* Frameworks */,
+				DE7C56A925B365E000D2DDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Halcyon;
+			productName = Halcyon;
+			productReference = DE7C56AB25B365E000D2DDB7 /* Halcyon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE7C56BB25B365E100D2DDB7 /* HalcyonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7C56D325B365E100D2DDB7 /* Build configuration list for PBXNativeTarget "HalcyonTests" */;
+			buildPhases = (
+				DE7C56B825B365E100D2DDB7 /* Sources */,
+				DE7C56B925B365E100D2DDB7 /* Frameworks */,
+				DE7C56BA25B365E100D2DDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE7C56BE25B365E100D2DDB7 /* PBXTargetDependency */,
+			);
+			name = HalcyonTests;
+			productName = HalcyonTests;
+			productReference = DE7C56BC25B365E100D2DDB7 /* HalcyonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE7C56C625B365E100D2DDB7 /* HalcyonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7C56D625B365E100D2DDB7 /* Build configuration list for PBXNativeTarget "HalcyonUITests" */;
+			buildPhases = (
+				DE7C56C325B365E100D2DDB7 /* Sources */,
+				DE7C56C425B365E100D2DDB7 /* Frameworks */,
+				DE7C56C525B365E100D2DDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE7C56C925B365E100D2DDB7 /* PBXTargetDependency */,
+			);
+			name = HalcyonUITests;
+			productName = HalcyonUITests;
+			productReference = DE7C56C725B365E100D2DDB7 /* HalcyonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE7C56A325B365E000D2DDB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE7C56AA25B365E000D2DDB7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DE7C56BB25B365E100D2DDB7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DE7C56AA25B365E000D2DDB7;
+					};
+					DE7C56C625B365E100D2DDB7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DE7C56AA25B365E000D2DDB7;
+					};
+				};
+			};
+			buildConfigurationList = DE7C56A625B365E000D2DDB7 /* Build configuration list for PBXProject "Halcyon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE7C56A225B365E000D2DDB7;
+			productRefGroup = DE7C56AC25B365E000D2DDB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE7C56AA25B365E000D2DDB7 /* Halcyon */,
+				DE7C56BB25B365E100D2DDB7 /* HalcyonTests */,
+				DE7C56C625B365E100D2DDB7 /* HalcyonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE7C56A925B365E000D2DDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7C56B625B365E100D2DDB7 /* Preview Assets.xcassets in Resources */,
+				DE7C56B325B365E100D2DDB7 /* Assets.xcassets in Resources */,
+				DE7C56F025B366D600D2DDB7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7C56BA25B365E100D2DDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7C56C525B365E100D2DDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A88A42A7C841F940C9DFF45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Halcyon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE7C56A725B365E000D2DDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7C574725B376CE00D2DDB7 /* Backend.swift in Sources */,
+				DE7C56FB25B367E000D2DDB7 /* AppDelegate.swift in Sources */,
+				DE7C56B125B365E000D2DDB7 /* ContentView.swift in Sources */,
+				DE7C56AF25B365E000D2DDB7 /* HalcyonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7C56B825B365E100D2DDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7C56C125B365E100D2DDB7 /* HalcyonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7C56C325B365E100D2DDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7C56CC25B365E100D2DDB7 /* HalcyonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE7C56BE25B365E100D2DDB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE7C56AA25B365E000D2DDB7 /* Halcyon */;
+			targetProxy = DE7C56BD25B365E100D2DDB7 /* PBXContainerItemProxy */;
+		};
+		DE7C56C925B365E100D2DDB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE7C56AA25B365E000D2DDB7 /* Halcyon */;
+			targetProxy = DE7C56C825B365E100D2DDB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE7C56CE25B365E100D2DDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE7C56CF25B365E100D2DDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE7C56D125B365E100D2DDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D247E7B11F2CC0ABB8DDB80 /* Pods-Halcyon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Halcyon/Halcyon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Halcyon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Halcyon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BSJDKBBK.Halcyon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE7C56D225B365E100D2DDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2C32B7C2FB13F9A268D27E /* Pods-Halcyon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Halcyon/Halcyon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Halcyon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Halcyon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BSJDKBBK.Halcyon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE7C56D425B365E100D2DDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalcyonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BSJDKBBK.HalcyonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halcyon.app/Halcyon";
+			};
+			name = Debug;
+		};
+		DE7C56D525B365E100D2DDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalcyonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BSJDKBBK.HalcyonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halcyon.app/Halcyon";
+			};
+			name = Release;
+		};
+		DE7C56D725B365E100D2DDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalcyonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BSJDKBBK.HalcyonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Halcyon;
+			};
+			name = Debug;
+		};
+		DE7C56D825B365E100D2DDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HalcyonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BSJDKBBK.HalcyonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Halcyon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE7C56A625B365E000D2DDB7 /* Build configuration list for PBXProject "Halcyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7C56CE25B365E100D2DDB7 /* Debug */,
+				DE7C56CF25B365E100D2DDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7C56D025B365E100D2DDB7 /* Build configuration list for PBXNativeTarget "Halcyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7C56D125B365E100D2DDB7 /* Debug */,
+				DE7C56D225B365E100D2DDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7C56D325B365E100D2DDB7 /* Build configuration list for PBXNativeTarget "HalcyonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7C56D425B365E100D2DDB7 /* Debug */,
+				DE7C56D525B365E100D2DDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7C56D625B365E100D2DDB7 /* Build configuration list for PBXNativeTarget "HalcyonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7C56D725B365E100D2DDB7 /* Debug */,
+				DE7C56D825B365E100D2DDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE7C56A325B365E000D2DDB7 /* Project object */;
+}
