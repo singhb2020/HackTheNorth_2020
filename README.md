@@ -1,5 +1,5 @@
 # Halcyon
-## HackTheNorth 2020
+## HackTheNorth 2021
 
 ### Authors
 - Bishneet Singh |
